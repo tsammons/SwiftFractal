@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB4B45C1E6E4BB4008A0506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4B45B1E6E4BB4008A0506 /* AppDelegate.swift */; };
+		9BB4B45E1E6E4BB4008A0506 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4B45D1E6E4BB4008A0506 /* GameScene.sks */; };
+		9BB4B4601E6E4BB4008A0506 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4B45F1E6E4BB4008A0506 /* GameScene.swift */; };
+		9BB4B4621E6E4BB4008A0506 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4B4611E6E4BB4008A0506 /* GameViewController.swift */; };
+		9BB4B4651E6E4BB4008A0506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4B4631E6E4BB4008A0506 /* Main.storyboard */; };
+		9BB4B4671E6E4BB4008A0506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4B4661E6E4BB4008A0506 /* Assets.xcassets */; };
+		9BB4B46A1E6E4BB4008A0506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4B4681E6E4BB4008A0506 /* LaunchScreen.storyboard */; };
+		9BB4B4751E6E4BB4008A0506 /* fractal3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4B4741E6E4BB4008A0506 /* fractal3Tests.swift */; };
+		9BB4B4801E6E4BB4008A0506 /* fractal3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4B47F1E6E4BB4008A0506 /* fractal3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB4B4711E6E4BB4008A0506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB4B4501E6E4BB4008A0506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB4B4571E6E4BB4008A0506;
+			remoteInfo = fractal3;
+		};
+		9BB4B47C1E6E4BB4008A0506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB4B4501E6E4BB4008A0506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB4B4571E6E4BB4008A0506;
+			remoteInfo = fractal3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BB4B4581E6E4BB4008A0506 /* fractal3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fractal3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB4B45B1E6E4BB4008A0506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BB4B45D1E6E4BB4008A0506 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9BB4B45F1E6E4BB4008A0506 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9BB4B4611E6E4BB4008A0506 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9BB4B4641E6E4BB4008A0506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB4B4661E6E4BB4008A0506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB4B4691E6E4BB4008A0506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BB4B46B1E6E4BB4008A0506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB4B4701E6E4BB4008A0506 /* fractal3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fractal3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB4B4741E6E4BB4008A0506 /* fractal3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fractal3Tests.swift; sourceTree = "<group>"; };
+		9BB4B4761E6E4BB4008A0506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB4B47B1E6E4BB4008A0506 /* fractal3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fractal3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB4B47F1E6E4BB4008A0506 /* fractal3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fractal3UITests.swift; sourceTree = "<group>"; };
+		9BB4B4811E6E4BB4008A0506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB4B4551E6E4BB4008A0506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B46D1E6E4BB4008A0506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B4781E6E4BB4008A0506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB4B44F1E6E4BB4008A0506 = {
+			isa = PBXGroup;
+			children = (
+				9BB4B45A1E6E4BB4008A0506 /* fractal3 */,
+				9BB4B4731E6E4BB4008A0506 /* fractal3Tests */,
+				9BB4B47E1E6E4BB4008A0506 /* fractal3UITests */,
+				9BB4B4591E6E4BB4008A0506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB4B4591E6E4BB4008A0506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4B4581E6E4BB4008A0506 /* fractal3.app */,
+				9BB4B4701E6E4BB4008A0506 /* fractal3Tests.xctest */,
+				9BB4B47B1E6E4BB4008A0506 /* fractal3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB4B45A1E6E4BB4008A0506 /* fractal3 */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4B45B1E6E4BB4008A0506 /* AppDelegate.swift */,
+				9BB4B45D1E6E4BB4008A0506 /* GameScene.sks */,
+				9BB4B45F1E6E4BB4008A0506 /* GameScene.swift */,
+				9BB4B4611E6E4BB4008A0506 /* GameViewController.swift */,
+				9BB4B4631E6E4BB4008A0506 /* Main.storyboard */,
+				9BB4B4661E6E4BB4008A0506 /* Assets.xcassets */,
+				9BB4B4681E6E4BB4008A0506 /* LaunchScreen.storyboard */,
+				9BB4B46B1E6E4BB4008A0506 /* Info.plist */,
+			);
+			path = fractal3;
+			sourceTree = "<group>";
+		};
+		9BB4B4731E6E4BB4008A0506 /* fractal3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4B4741E6E4BB4008A0506 /* fractal3Tests.swift */,
+				9BB4B4761E6E4BB4008A0506 /* Info.plist */,
+			);
+			path = fractal3Tests;
+			sourceTree = "<group>";
+		};
+		9BB4B47E1E6E4BB4008A0506 /* fractal3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB4B47F1E6E4BB4008A0506 /* fractal3UITests.swift */,
+				9BB4B4811E6E4BB4008A0506 /* Info.plist */,
+			);
+			path = fractal3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB4B4571E6E4BB4008A0506 /* fractal3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB4B4841E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3" */;
+			buildPhases = (
+				9BB4B4541E6E4BB4008A0506 /* Sources */,
+				9BB4B4551E6E4BB4008A0506 /* Frameworks */,
+				9BB4B4561E6E4BB4008A0506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fractal3;
+			productName = fractal3;
+			productReference = 9BB4B4581E6E4BB4008A0506 /* fractal3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BB4B46F1E6E4BB4008A0506 /* fractal3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB4B4871E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3Tests" */;
+			buildPhases = (
+				9BB4B46C1E6E4BB4008A0506 /* Sources */,
+				9BB4B46D1E6E4BB4008A0506 /* Frameworks */,
+				9BB4B46E1E6E4BB4008A0506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB4B4721E6E4BB4008A0506 /* PBXTargetDependency */,
+			);
+			name = fractal3Tests;
+			productName = fractal3Tests;
+			productReference = 9BB4B4701E6E4BB4008A0506 /* fractal3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BB4B47A1E6E4BB4008A0506 /* fractal3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB4B48A1E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3UITests" */;
+			buildPhases = (
+				9BB4B4771E6E4BB4008A0506 /* Sources */,
+				9BB4B4781E6E4BB4008A0506 /* Frameworks */,
+				9BB4B4791E6E4BB4008A0506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB4B47D1E6E4BB4008A0506 /* PBXTargetDependency */,
+			);
+			name = fractal3UITests;
+			productName = fractal3UITests;
+			productReference = 9BB4B47B1E6E4BB4008A0506 /* fractal3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB4B4501E6E4BB4008A0506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tyler_sammons;
+				TargetAttributes = {
+					9BB4B4571E6E4BB4008A0506 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9BB4B46F1E6E4BB4008A0506 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BB4B4571E6E4BB4008A0506;
+					};
+					9BB4B47A1E6E4BB4008A0506 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9BB4B4571E6E4BB4008A0506;
+					};
+				};
+			};
+			buildConfigurationList = 9BB4B4531E6E4BB4008A0506 /* Build configuration list for PBXProject "fractal3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB4B44F1E6E4BB4008A0506;
+			productRefGroup = 9BB4B4591E6E4BB4008A0506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB4B4571E6E4BB4008A0506 /* fractal3 */,
+				9BB4B46F1E6E4BB4008A0506 /* fractal3Tests */,
+				9BB4B47A1E6E4BB4008A0506 /* fractal3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB4B4561E6E4BB4008A0506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4B45E1E6E4BB4008A0506 /* GameScene.sks in Resources */,
+				9BB4B46A1E6E4BB4008A0506 /* LaunchScreen.storyboard in Resources */,
+				9BB4B4671E6E4BB4008A0506 /* Assets.xcassets in Resources */,
+				9BB4B4651E6E4BB4008A0506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B46E1E6E4BB4008A0506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B4791E6E4BB4008A0506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB4B4541E6E4BB4008A0506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4B4601E6E4BB4008A0506 /* GameScene.swift in Sources */,
+				9BB4B4621E6E4BB4008A0506 /* GameViewController.swift in Sources */,
+				9BB4B45C1E6E4BB4008A0506 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B46C1E6E4BB4008A0506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4B4751E6E4BB4008A0506 /* fractal3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB4B4771E6E4BB4008A0506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4B4801E6E4BB4008A0506 /* fractal3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BB4B4721E6E4BB4008A0506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB4B4571E6E4BB4008A0506 /* fractal3 */;
+			targetProxy = 9BB4B4711E6E4BB4008A0506 /* PBXContainerItemProxy */;
+		};
+		9BB4B47D1E6E4BB4008A0506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB4B4571E6E4BB4008A0506 /* fractal3 */;
+			targetProxy = 9BB4B47C1E6E4BB4008A0506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BB4B4631E6E4BB4008A0506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB4B4641E6E4BB4008A0506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BB4B4681E6E4BB4008A0506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB4B4691E6E4BB4008A0506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB4B4821E6E4BB4008A0506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BB4B4831E6E4BB4008A0506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB4B4851E6E4BB4008A0506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fractal3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BB4B4861E6E4BB4008A0506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fractal3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BB4B4881E6E4BB4008A0506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = fractal3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fractal3.app/fractal3";
+			};
+			name = Debug;
+		};
+		9BB4B4891E6E4BB4008A0506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fractal3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fractal3.app/fractal3";
+			};
+			name = Release;
+		};
+		9BB4B48B1E6E4BB4008A0506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = fractal3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fractal3;
+			};
+			name = Debug;
+		};
+		9BB4B48C1E6E4BB4008A0506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fractal3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.fractal3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fractal3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB4B4531E6E4BB4008A0506 /* Build configuration list for PBXProject "fractal3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB4B4821E6E4BB4008A0506 /* Debug */,
+				9BB4B4831E6E4BB4008A0506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB4B4841E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB4B4851E6E4BB4008A0506 /* Debug */,
+				9BB4B4861E6E4BB4008A0506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BB4B4871E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB4B4881E6E4BB4008A0506 /* Debug */,
+				9BB4B4891E6E4BB4008A0506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BB4B48A1E6E4BB4008A0506 /* Build configuration list for PBXNativeTarget "fractal3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB4B48B1E6E4BB4008A0506 /* Debug */,
+				9BB4B48C1E6E4BB4008A0506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB4B4501E6E4BB4008A0506 /* Project object */;
+}
